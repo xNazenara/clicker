@@ -1,0 +1,48 @@
+/* body {
+  font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.main-container {
+    background: yellow;
+    width: 100vw;
+    height: 100vh;
+}
+
+.big {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post {
+    padding: 15px;
+    background: blue;
+}
+
+.title {
+    color: rgb(255, 216, 170);
+    background: rgba(0, 50, 200, 1);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.info {
+  text-align: center;
+    color: rgb(180, 249, 249);
+    font-size: 19px;
+    background: #0032c8;
+    margin: 5px 5px 0px;
+    line-height: 27px;
+}
+.toad {
+  width: 100px;
+  max-width: 100%;
+  max-height: 100%;
+} */
