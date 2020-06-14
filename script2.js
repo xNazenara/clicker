@@ -14,7 +14,7 @@ const clickAchievement = 13
 
 let nickname = localStorage.getItem('nicknameValue')
 
-let bestResultNickname = localStorage.getItem('bestResultNickname')s
+let bestResultNickname = localStorage.getItem('bestResultNickname')
 
 let bestResultValue = localStorage.getItem('bestResultValue')
 
