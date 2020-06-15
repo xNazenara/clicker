@@ -12,6 +12,13 @@ const leaderboard = document.querySelector('.left-container')
 
 const clickAchievement = 13
 
+const buttonChanger = ()=>{
+  axios.get("http://localhost:3000/button-name")
+    .then(res=>{
+      button.innerHTML = res.data
+    })
+}
+
 let nickname = localStorage.getItem('nicknameValue')
 
 let bestResultNickname = localStorage.getItem('bestResultNickname')
@@ -27,6 +34,8 @@ let timer = 1000
 let active = false
 
 let fps = 10
+
+buttonChanger()
 
 nicknameValue.value = nickname
 
@@ -63,9 +72,9 @@ button.addEventListener('click', (event) => {
 
       setTimeout(()=>{
         button.disabled = false
+        buttonChanger()
       }, 1000)
     }, timer)
-
 
     for (let q = 0; q < fps; q++){
       setTimeout(()=>{
