@@ -4,7 +4,7 @@ const clicksValue = document.querySelector('.clicks-value')
 
 const button = document.querySelector('.click-area')
 
-const achievement = document.querySelector('.achievement')
+const achievement = document.querySelector('.achievement-a')
 
 const nicknameValue = document.querySelector('.nickname-value')
 
@@ -95,7 +95,7 @@ button.addEventListener('click', (event) => {
   }
 
   if(clicks === clickAchievement) {
-    achievement.innerHTML = 'вы хорошо кликаете'
+    achievement.innerText = nicknameValue + ' ' + 'красавчик'
   }
 
 
